@@ -8,14 +8,14 @@
 
 3-beginer blog
 
-![alt text](https://github.com/abdoAdel746/images/blob/main/beginer blog.png)
+![alt text](https://github.com/abdoAdel746/images/blob/main/beginerblog.png)
 
 1-beginer portfolio
 
-![alt text](https://github.com/abdoAdel746/images/blob/main/beginer portfolio.png)
+![alt text](https://github.com/abdoAdel746/images/blob/main/beginerportfolio.png)
 1-Cs50 Web
 
-![alt text](https://github.com/abdoAdel746/images/blob/main/Cs50 Web.png)
+![alt text](https://github.com/abdoAdel746/images/blob/main/Cs50Web.png)
 
 1-facebook
 
@@ -27,7 +27,7 @@
 
 1-porftolio 2
 
-![alt text](https://github.com/abdoAdel746/images/blob/main/porftolio 2.png)
+![alt text](https://github.com/abdoAdel746/images/blob/main/porftolio2.png)
 1-sign-in
 
 ![alt text](https://github.com/abdoAdel746/images/blob/main/sign-in.png)
