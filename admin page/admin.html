@@ -1,0 +1,311 @@
+<html>
+    <head>
+        <title>Dashboard</title>
+        <link rel="stylesheet" href="css/colors.css" id = "colorStyel" disabled>
+        <link rel="stylesheet" href="css/admin.css"/>
+        <link href="../fontawesome/css/all.css" rel="stylesheet">
+    </head>
+    <body class="changeBackgroundColor">
+
+<!--start side navbar-->
+      <aside class="sidebar">
+        <div class="image">
+          <img src="images/admin.jpg" alt="admin">
+          <h1>admin name</h1>
+          <h2>admin@yahoo.com</h2>
+        </div>
+        <a href="#home" class="btn active" onclick="return show('Page1','Page2','Page3');">Home</a>
+        <a href="#users" class="btn" onclick="return show('Page2','Page1','Page3');">best users</a>
+        <a href="#sold" class="btn" onclick="return show('Page3','Page2','Page1');">Top Selling Products</a>
+        <a href="#change" onclick="swapStyleSheet()" id="change">change background</a>
+        <a href="#logout">logout</a>
+      </aside>
+<!--end side navbar-->
+<!--start page one-->
+      <div class="content"  id="Page1">
+<!--start top header for content-->
+        <div class="top_header">
+          <div class="left_top_header">
+            <button class="add_product"><i class="fas fa-plus"></i></button>
+            <span>add product</span>
+            <span id="form-search"><i class="fas fa-search"></i></span>
+            <input type="text" class="form-control" placeholder="Search..." >
+            <button type="button" class="Search">Search</button>
+          </div>
+
+          <div class="right_top_header">
+            <div class="notification"><i class="far fa-bell"></i></div>
+            <div class="dropdown" onclick="dispalyLanguages()">
+             <button class="dropbtn"><img src="images/usa.png" alt = ""><span>USA</span><i class="fas fa-sort"></i></button>
+             <div class="dropdown-content hideLang">
+               <a href="#"><span>USA</span><img src="images/usa.png" alt = "usa"></a>
+               <a href="#"><span>ARABIC</span><img src="images/sad.png" alt = "saudia"></a>
+             </div>
+           </div>
+           <div class="drop_slectors">
+             <img src="images/admin.jpg" alt="admin">
+             <span>admin name <i class="fas fa-sort"></i></span>
+           </div>
+          </div>
+        </div>
+<!--end top header for content-->
+<!--start the statistics-->
+        <div class="welcome">
+
+          <div>
+            <h1>Hi, welcome back!</h1>
+            <p>Your sales monitoring dashboard template.</p>
+          </div>
+          <div>
+            <h3>Customer Ratings</h3>
+            <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+          </div>
+          <div>
+            <h3>All Sales (Online)</h3>
+            <p><b>4310,007</b></p>
+          </div>
+          <div>
+            <h3>All Sales (Offline)</h3>
+            <p><b>932,210</b></p>
+          </div>
+
+        </div>
+<!--end the statistics-->
+<!--start the charts statistics-->
+        <div class="charts">
+
+          <div>
+            <div class="left_charts">
+              <h1>NEW ORDERS</h1>
+              <p>154556</p>
+              <p>5%(30days)</p>
+            </div>
+            <div class="right_charts">
+              <i class="fas fa-shopping-basket"></i>
+            </div>
+            <div class="bottom_charts">
+              <img src="images/first chart.png" alt="">
+            </div>
+          </div>
+
+          <div>
+            <div class="left_charts">
+              <h1>TOTAL INCOME</h1>
+              <p>$14,966</p>
+              <p>Increased by 7.35%</p>
+            </div>
+            <div class="right_charts">
+              <i class="fas fa-dollar-sign"></i>
+            </div>
+            <div class="bottom_charts">
+              <img src="images/second chart.png" alt="">
+            </div>
+          </div>
+
+          <div>
+            <div class="left_charts">
+              <h1>TOTAL SALES</h1>
+              <p>15151955</p>
+              <p>Increased by 7.35%</p>
+            </div>
+            <div class="right_charts">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+            <div class="bottom_charts">
+              <img src="images/third chart.png" alt="">
+            </div>
+          </div>
+
+          <div>
+            <div class="left_charts">
+              <h1>TOTAL USERS</h1>
+              <p>10202020</p>
+              <p>Increased by 10%</p>
+            </div>
+            <div class="right_charts">
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="bottom_charts">
+              <img src="images/fourth chart.png" alt="">
+            </div>
+          </div>
+
+        </div>
+<!--end the charts statistics-->
+<!--start the earnings statistics table-->
+        <div class="earnings">
+
+          <div class="rescent_earnings" style="width: 61%;">
+            <table>
+              <tr>
+                <th>DATE</th>
+                <th>SALES COUNT</th>
+                <th>TOTAL EARNINGS</th>
+              </tr>
+              <tr>
+                <td>05 AUG 2020</td>
+                <td>5000</td>
+                <td>$100000</td>
+              </tr>
+              <tr>
+                <td>09 JUN 2020</td>
+                <td>4500</td>
+                <td>$90000</td>
+              </tr>
+              <tr>
+                <td>10 JUL 2019</td>
+                <td>4000</td>
+                <td>$80000</td>
+              </tr>
+              <tr>
+                <td>21 FEB 2017</td>
+                <td>3200</td>
+                <td>$66000</td>
+            </tr>
+            </table>
+          </div>
+<!--end the rescent earnings statistics table-->
+<!--start the statistics top countires-->
+          <div class="top_countires">
+            <h1>top countries slaes</h1>
+            <div>
+              <img src="images/r-usa.png">
+              <p>UNITED STATES</p>
+              <div>$20000</div>
+            </div>
+            <div>
+              <img src="images/r-france.png">
+              <p>france</p>
+              <div>$15000</div>
+            </div>
+            <div>
+              <img src="images/r-spain.png">
+              <p>spain</p>
+              <div>$10000</div>
+            </div>
+            <div>
+              <img src="images/r-germany.png">
+              <p>germany</p>
+              <div>$5000</div>
+            </div>
+          </div>
+<!--end the statistics top countires-->
+        </div>
+<!--end the earnings statistics table-->
+      </div>
+<!--end page one-->
+<!--start page two-->
+      <div class="content" id="Page2" style="display:none">
+        <div class="container">
+<!--start users container-->
+          <div class="users">
+            <img src="images/user1.png" alt="Avatar" class="image">
+            <div class="user_info">
+              <h1>user name</h1>
+            </div>
+            <div class="overlay">
+              <div class="text">spend 5000$</div>
+            </div>
+          </div>
+
+          <div class="users">
+            <img src="images/user2.png" alt="Avatar" class="image">
+            <div class="user_info">
+              <h1>user name</h1>
+            </div>
+            <div class="overlay">
+              <div class="text">spend 4000$</div>
+            </div>
+          </div>
+
+          <div class="users">
+            <img src="images/user3.png" alt="Avatar" class="image">
+            <div class="user_info">
+              <h1>user name</h1>
+            </div>
+            <div class="overlay">
+              <div class="text">spend 3000$</div>
+            </div>
+          </div>
+
+          <div class="users">
+            <img src="images/user4.png" alt="Avatar" class="image">
+            <div class="user_info">
+              <h1>user name</h1>
+            </div>
+            <div class="overlay">
+              <div class="text">spend 2000$</div>
+            </div>
+          </div>
+<!--end users container-->
+        </div>
+      </div>
+<!--end page two-->
+<!--start page three-->
+      <div class="content" id="Page3" style="display:none">
+          <div class="top_sales">
+           <h1 class="slaesHeader">Top Selling Products</h1>
+            <div class="container">
+<!--start product container-->
+              <div class="users">
+                <img src="images/p1.jpg" alt="Avatar" class="image">
+                <div class="user_info">
+                  <h1>air max 2170</h1>
+                  <p>500$ for each piece</p>
+                </div>
+                <div class="overlay">
+                  <div class="text">500 pieces sold</div>
+                </div>
+              </div>
+
+              <div class="users">
+                <img src="images/p2.jpg" alt="Avatar" class="image">
+                <div class="user_info">
+                  <h1>air force</h1>
+                  <p>500$ for each piece</p>
+                </div>
+                <div class="overlay">
+                  <div class="text">500 pieces sold</div>
+                </div>
+              </div>
+
+              <div class="users">
+                <img src="images/p3.jpg" alt="Avatar" class="image">
+                <div class="user_info">
+                  <h1>air max plus</h1>
+                  <p>500$ for each piece</p>
+                </div>
+                <div class="overlay">
+                  <div class="text">500 pieces sold</div>
+                </div>
+              </div>
+
+              <div class="users">
+                <img src="images/p4.jpg" alt="Avatar" class="image">
+                <div class="user_info">
+                  <h1>fleece joggers</h1>
+                  <p>500$ for each piece</p>
+                </div>
+                <div class="overlay">
+                  <div class="text">500 pieces sold</div>
+                </div>
+              </div>
+
+              <div class="users">
+                <img src="images/p5.jpg" alt="Avatar" class="image">
+                <div class="user_info">
+                  <h1>hodded jacket</h1>
+                  <p>500$ for each piece</p>
+                </div>
+                <div class="overlay">
+                  <div class="text">500 pieces sold</div>
+                </div>
+              </div>
+<!--end product container-->
+            </div>
+          </div>
+      </div>
+<!--end page three-->
+    <script type="text/javascript" src="js/admin.js"></script>
+    </body>
+</html>

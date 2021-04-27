@@ -1,0 +1,75 @@
+*
+{
+  color: #000000 !important;
+}
+.sidebar a , .sidebar h1
+{
+  color: #ffffff !important;
+}
+.sidebar h2
+{
+  color: #a6a0a7 !important;
+}
+body
+{
+  background-color: #ffffff !important;
+}
+.top_header
+{
+    background-color: #0075af !important;
+}
+#form-search , input.form-control , button.Search ,.dropbtn
+{
+  background-color: #0099de !important;
+  border-color: #0099de !important;
+}
+.fa-star, .fa-star-half-alt {
+    color: #ff3d00  !important;
+}
+.welcome p ,.welcome b
+{
+  color: #024b6b !important;
+}
+div.charts > * {
+    background-color: #ad1515  !important;/*#30165f*/
+}
+.charts .left_charts h1,.charts .left_charts p
+{
+  color: #ffffff !important;
+}
+th {
+    background-color: #300975 !important;
+    color: white !important;
+}
+tr:nth-child(odd) {
+    background-color: #5d6386 !important;
+}
+tr:nth-child(odd) td
+{
+  color: white !important;
+}
+#page2 .users {
+    background-color: #ececec !important;
+    border-radius: 12px !important;
+}
+#page2 .users * {
+    color: white !important;
+}
+#page3 .user_info
+{
+  background-color: #e0316d !important;
+}
+#page3 .user_info * {
+  color: #000000 !important;
+}
+#page3 .overlay {
+  background-color: #ff1100ba !important;
+  }
+#page3 .text
+{
+  color: white !important;
+}
+.charts .right_charts
+{
+  background-color: white !important;
+}

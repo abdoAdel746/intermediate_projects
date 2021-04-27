@@ -1,0 +1,165 @@
+body{
+  font-family: sans-serif;
+  background: #e9ebee;
+}
+#head{
+  background : #3b5998;
+  margin: -10px;
+  height: 70px;
+  width: 100%;
+}
+.fname,.sname{
+width: 182px;
+height: 30px;
+border-radius: 5px;
+}
+.mobile,.password{
+width: 377px;
+height: 30px;
+border-radius: 5px;
+margin-top: 10px;
+}
+.main1{
+  padding: 30px;
+  padding-top: 10px;
+  padding-left: 0px;
+  margin-left: 300px;
+  margin-top: 20px;
+}
+.main2{
+  position: absolute;
+  top: 70px;
+  right: 220px;
+  display: inline-table;
+  width: 300px;
+  height: auto;
+  margin-top: 10px;
+}
+footer{
+  background: #ffffff;
+    padding: 65px;
+    font-size: 15px;
+  }
+  li{
+    padding-right: 33px;
+    color: #385898;
+  }
+  a{
+    text-decoration:none;
+  }
+span{
+  color: #777;
+font-size: 11px;
+width: 316px;
+}
+.languages{
+  display: flex;
+      width: 600px;
+      padding-left: 200px;
+      list-style-type: none;
+}
+.serveis:hover{
+  text-decoration:underline;
+}
+.serveis{
+  color: #385898;
+  text-decoration: none;
+}
+.submit {
+  text-decoration: none;
+    margin: 20px;
+    margin-left: 0px;
+    width: 170px;
+    height: 35px;
+    display: block;
+    background: linear-gradient(#67ae55, #578843);
+    color: white;
+    font-size: 24px;
+    padding: 0px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.submit:hover{
+  background: linear-gradient(#67ae55, #578843);
+}
+#border{
+  border-bottom: 1px solid #666666;
+      margin-bottom: 10px;
+    }
+    #footer-1{
+      border-bottom: 1px solid #666666;
+          margin-left: 200px;
+    }
+    #createColor{
+      text-decoration: none;
+      color: blue;
+    }
+    #copyright{
+      display: inline-block;
+      margin-left: 200px;
+      font-size: 14px;
+    }
+.color{
+  color: #90949c;
+  margin-right: 300px;
+  font-size: 16px;
+  font-weight: bold;
+}
+select{
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 13px;
+}
+.header{
+  color: #ffffff;
+  position: absolute;
+  left: 300px;
+  top: 10px;
+  font-size: 40px;
+  margin: 10px;
+  letter-spacing: -2px;
+}
+.sub-header{
+  font-size: 35px;
+  font-weight: bold;
+}
+.email-word{
+  position: absolute;
+  left: 1000px;
+  top: 9px;
+  color: white;
+}
+.Password-word{
+  position: absolute;
+  left: 1180px;
+  top: 9px;
+  color: white;
+}
+.email-input{
+  position: absolute;
+  left: 1000px;
+  top: 30px;
+}
+.Password-input{
+  position: absolute;
+  left: 1180px;
+  top: 30px;
+}
+.Log-in{
+  position: absolute;
+  left: 1360px;
+  top: 30px;
+  background: #416ac0;
+}
+.forget{
+  position: absolute;
+  left: 1180px;
+  top: 50px;
+  color: #83b4d8;
+}
+.Log-in:hover{
+  background : #365899;
+  cursor: pointer;
+}

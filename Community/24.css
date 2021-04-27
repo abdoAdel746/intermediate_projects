@@ -1,0 +1,581 @@
+*
+{
+  box-sizing:border-box;
+  font-family: 'arial' , tahoma;
+  font-size: 20px;
+  text-transform : capitalize;
+}
+body
+{
+  background-color: #f0f0ed;
+      margin: 10px;
+}
+.left
+{
+  width: 23%;
+      height: 115em;
+      background-color: transparent;
+      display: inline-block;
+      padding: 2em;
+}
+.center
+{
+  width: 51%;
+      height: 96.5em;
+      background-color: transparent;
+      display: inline-block;
+      margin-left: 15px;
+      margin-right: 15px;
+      position: absolute;
+      /* margin-bottom: -407em;*/
+}
+.right
+{
+  width: 46%;
+      height: 86em;
+      background-color: transparent;
+      display: inline-block;
+      margin-left: 15px;
+      margin-right: -44.5%;
+      /* position: absolute; */
+      margin-top: -84.1em;
+      float: right;
+}
+.search
+{
+  width: 99%;
+  height: 4em;
+  padding: 1em;
+  background-color: white;
+  border-radius: .5em;
+}
+input[type="search"]
+{
+  padding: 15px;
+      width: 60%;
+      height: 42px;
+      border: 1px solid;
+      border-radius: 3px;
+      background-color: #f7f7f7;
+      color: white;
+}
+button[name="Search"]
+{
+  width: 34%;
+  height: 42px;
+  border: 1px solid #2f9bc1;
+  border-radius: 3px;
+  background-color: #2f9bc1;
+  color: white;
+  text-align: center;
+}
+.members,.groubs,.active,.shedule
+{
+  width: 100%;
+      height: 31em;
+      margin-top: 1em;
+      background-color: white;
+      border-radius: 0.5em;
+      padding: 1em;
+}
+.groubs
+{
+height: 28em;
+}
+.active
+{
+  height: 20em;
+}
+.shedule
+{
+  height: 23em;
+}
+.members h1,.groubs h1
+{
+  text-align: left;
+      font-size: .8em;
+    }
+.members div:first-of-type ,.groubs div:first-of-type ,.active div:first-of-type,
+.shedule div:first-of-type,.sign-in div:first-of-type,.statistics div:first-of-type,
+.online div:first-of-type,.replies div:first-of-type
+{
+  width: 118%;
+      height: 0px;
+      border: 0.01rem solid #f0f0ed;
+      margin-left: -1em;
+}
+.sign-in div:first-of-type,.statistics div:first-of-type,.online div:first-of-type,
+.replies div:first-of-type
+{
+  width: 116%;
+  height: 0px;
+  border: 0.01rem solid #f0f0ed;
+  background-color: #f0f0ed;
+  margin-left: -1em;
+  margin-top: 1em;
+}
+.sign-in div:first-of-type
+{
+  width: 141%;
+      height: 0px;
+      margin-left: -2.6em;
+      background-color: #f0f0ed;
+      border-color: #f0f0ed;
+}
+.statistics div:first-of-type,.online div:first-of-type
+{
+margin-bottom: 2em;
+}
+.replies div:first-of-type
+{
+margin-bottom: .6em;
+}
+.buttons
+{
+  display: inline-block;
+
+}
+.buttons button
+{
+  width: 92%;
+      height: 2.3em;
+      padding: 0em;
+      margin-top: 2em;
+      margin-bottom: .4em;
+      margin-right: 2em;
+      background-color: #7fb31e;
+      border: 1px;
+      border-radius: .5em;
+      color: white;
+      font-size: .6em;
+      cursor: pointer;
+}
+.buttons button:hover
+{
+  background-color: #679710;
+}
+button[name="alphapatical"]
+{
+margin-top: -2em;
+}
+.image
+{
+  margin-top: 2em;
+  margin-bottom : 2em
+}
+.image img
+{
+  width: 22%;
+      height: 3.2em;
+      border: 1px;
+      border-radius: 10%;
+      float: left;
+      margin-right: 6%;
+}
+.active .image img
+{
+  margin-bottom: 1em;
+  width: 19%;
+  height: 2.5em;
+}
+.image span
+{
+  border: 1px;
+      border-radius: 10%;
+      padding: 5px;
+      padding-left: .5em;
+      padding-right: .5em;
+      margin-left: .7em;
+      background-color: #e4ecf1;
+      color: #6595b5;
+      font-size: small;
+      font-weight: bold;
+}
+.groubs .image span
+{
+    font-size: 10px;
+  }
+.shedule span
+{
+  float: right;
+      margin-top: 1em;
+      color: #999999;
+      font-weight: bold;
+}
+.shedule ul
+{
+  list-style: none;
+      padding: 1.5em;
+      padding-left: 12px;
+      padding-right: 11px;
+      margin-bottom: 6em;
+      margin: 30px auto;
+      margin-bottom: -4em;
+      width: 100%;
+      word-spacing: 16px;
+
+}
+.shedule li
+{
+  display : inline-block;
+  text-align : center;
+}
+.active h1
+{
+  font-size: .8em;
+}
+.days li
+{
+  width: 14%;
+      height: 2.4rem;
+      padding: 4px;
+      float: left;
+      text-align: left;
+      color: #999999;
+}
+.days li:nth-of-type(1),.days li:nth-of-type(2),.days li:nth-of-type(3),.days li:nth-of-type(4),
+.days li:nth-of-type(5),.days li:nth-of-type(6),.days li:nth-of-type(7)
+{
+  font-weight: bold;
+}
+.prev
+{
+    font-size: 10px;
+}
+.pre
+{
+  position: relative;
+    left: -6em;
+    top: 2em;
+}
+.days .pre li:nth-last-of-type(1),.days .pre p
+{
+  margin-left: 10px;
+  color: black;
+  font-weight: lighter;
+}
+.center img
+{
+  width : 100%;
+  height: 20em;
+  border : 1px;
+  border-radius: 10%;
+}
+.center .header
+{
+  width: 59%;
+      height: 2.2em;
+      padding: 2%;
+      padding-left: -1em;
+      text-align: center;
+      background-color: #33363c;
+      color: white;
+      font-size: 1.5em;
+      border: 1px;
+      border-radius: 10px;
+      position: relative;
+      top: -5em;
+      left: .5em;
+}
+.center h2,.right .sign-in h2,.statistics h2,.online h2,.replies h2
+{
+  width: 106%;
+      padding: 2%;
+      padding-left: -1em;
+      text-align: left;
+      margin: -1em;
+background-color: white;
+      color: #33363c;
+      font-size: 1em;
+      border: 1px;
+      border-radius: 10px 10px 0 0;
+}
+.replies h2
+{
+  width: 116%;
+    padding: 5%;
+}
+.right .sign-in h2,.sign-in h2
+{
+  width: 116%;
+      padding: 6%;
+      color: black;
+      background-color: white;
+}
+.latest,.latest-posts,.features,.sign-in,.statistics,.online,.replies
+{
+  width: 169%;
+      height: 38em;
+      margin-top: 5em;
+      background-color: white;
+      border-radius: 0.5em;
+      padding: 1em;
+}
+.sign-in,.statistics,.online,.replies
+{
+  width: 82.5%;
+      height: 21em;
+      margin-top: 2em;
+      margin: 10px auto;
+      margin-top: 1em;
+      padding: 6%;
+      color: white;
+}
+.statistics
+{
+  height: 26em;
+}
+.online
+{
+  height: 6em;
+}
+.replies {
+height: 12em;
+}
+#topics
+{
+  height: 14em;
+}
+.latest-posts
+{
+margin-top: 1em;
+height: 20em;
+}
+.features
+{
+  margin-top: 1em;
+    height: 13em;
+  }
+.latest img
+{
+  width: 6%;
+  height: 2.1em;
+  margin-right: .5em;
+}
+.latest-posts img
+{
+  width: 6%;
+  height: 2.1em;
+  margin-right: .5em;
+}
+.features img
+{
+  width: 95%;
+      height: 6.1em;
+      margin-right: .5em;
+}
+.latest .image,.latest-posts .image,.features .image
+{
+  border-bottom: 1px solid #f0f0ed;
+  text-align: left;
+  margin-bottom: -1.4em;
+  padding-bottom: 1em;
+  color: black;
+}
+.features .image
+{
+  border-bottom: none;
+  display: inline-block;
+  width: 24%;
+}
+.latest-posts .image
+{
+  border-bottom: none;
+  margin-bottom: -2.4em;
+}
+.image .para
+{
+  width: 100%;
+}
+.image .para h1,.image .para p
+{
+  font-size: 14px;
+      color: #999999;
+      font-weight: 100;
+      padding-left: 8%;
+}
+b ,.latest-posts .para h1,.features .image .para h1,.sign-in h2,.statistics h2,.online h2
+{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+.right .replies p
+{
+  font-size: small;
+      margin: 1em;
+      margin-right: 0;
+}
+.right .replies p:first-of-type
+{
+margin-right: 2em;
+}
+.right .replies b
+{
+  font-size: small;
+}
+.statistics h2 ,.online h2
+{
+  width: 116%;
+      color: black;
+      background-color: white;
+      padding: .6em;
+}
+.features .image .para h1
+{
+  font-size: 11px;
+      text-align: left;
+      margin-top: 12em;}
+button[name="load-more"]
+{
+  width: 100%;
+      padding: .4em;
+      text-align: center;
+      border: 1px;
+      border-radius: 7px;
+      background-color: #f7f7f7;
+      color: black;
+      cursor: pointer;
+      font-weight: 400;
+}
+.no-page,.no-page1
+{
+  width: 2em;
+      height: 2em;
+      padding: 5px;
+      text-align: center;
+      margin-left: .4em;
+      margin-top: 1em;
+      float: left;
+      display: inline-block;
+      background-color: #fbfbfb;
+      color: #999999;
+      border :1px;
+      border-radius : 7px;
+      cursor : pointer;
+}
+.no-page:hover,.no-page1:hover
+{
+  background-color: #f0f0ed;
+}
+.no-page1
+{
+    margin-left: 27em;
+}
+.right input
+{
+  width: 100%;
+  height: 0em;
+  border: 1px;
+  border-radius: 5px;
+  margin: 10px auto;
+  padding: 10%;
+  padding-left: 10px;
+  background-color: #f7f7f7;
+}
+
+.right input[type="checkbox"]
+{
+  width: 8%;
+  height: .7em;
+  margin: 27px auto;
+}
+
+.right p
+{
+  float : right;
+  color : black
+}
+.right p:first-of-type
+{
+  float: right;
+      color: black;
+      width: 90%;
+      color: #9999b3;
+}
+.right button
+{
+  width: 100%;
+      text-align: center;
+      background-color: #2f9bc1;
+      border: 1px;
+      border-radius: 8px;
+      padding: 4%;
+      color: white;
+}
+.rectangel
+{
+  width: 102%;
+      height: 2.5em;
+      margin: 9px auto;
+      padding: 15px;
+      border: 1px;
+      border-radius: 10px;
+      background-color: #c12f6c;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+}
+.rectangel span:nth-of-type(1)
+{
+  float: left;
+}
+.rectangel span:nth-of-type(2)
+{
+  float: right;
+}
+.online p
+{
+  width: 100%;
+      margin-top: -1em;
+      font-size: small;
+}
+.replies p
+{
+  width: 100%;
+      margin-top: -1em;
+      font-size: small;
+}
+@media (max-width:600px) {
+  .left,.center
+  {
+    display: block;
+    width: 100%;
+    margin: 4px;
+  }
+  .right
+  {
+    display: block;
+    width: 100%;
+    margin-top: 8em;
+        margin-right: 0;
+  }
+  .center .header
+  {
+    height: 3.2em;
+  }
+  .latest
+  {
+       margin-left: -6px;
+       height: 48em;
+  }
+  .no-page1 {
+    margin-left: 6em;
+  }
+  .latest-posts {
+    height: 23em;
+  }
+  .features .image {
+    width: 22%;
+  }
+.right .sign-in h2, .sign-in h2 {
+    width: 100%;
+  }
+  .statistics h2, .online h2 {
+    width: 100%;
+  }
+  .replies h2 {
+    width: 100%;
+    padding: 5%;
+  }
+}

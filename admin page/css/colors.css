@@ -1,0 +1,92 @@
+*
+{
+  color: #000000 !important;
+}
+body
+{
+  background-color: #ffffff !important;
+}
+/*start side navbar*/
+.sidebar a , .sidebar h1
+{
+  color: #ffffff !important;
+}
+.sidebar h2
+{
+  color: #a6a0a7 !important;
+}
+/*end side navbar*/
+/*start top header for content*/
+.top_header
+{
+    background-color: #0075af !important;
+}
+#form-search , input.form-control , button.Search ,.dropbtn
+{
+  background-color: #0099de !important;
+  border-color: #0099de !important;
+}
+.fa-star, .fa-star-half-alt {
+    color: #ff3d00  !important;
+}
+.welcome p ,.welcome b
+{
+  color: #024b6b !important;
+}
+/*end top header for content*/
+/*start the charts statistics*/
+div.charts > *
+{
+  background-color: #30165f  !important;/*#30165f*/
+}
+.charts .left_charts h1,.charts .left_charts p
+{
+  color: #ffffff !important;
+}
+.charts .right_charts
+{
+  background-color: white !important;
+}
+/*end the charts statistics*/
+/*start the earnings statistics table*/
+th
+{
+  background-color: #300975 !important;
+  color: white !important;
+}
+tr:nth-child(odd) {
+    background-color: #5d6386 !important;
+}
+tr:nth-child(odd) td
+{
+  color: white !important;
+}
+/*end the earnings statistics table*/
+/*start page two*/
+#page2 .users
+{
+  background-color: #ececec !important;
+  border-radius: 12px !important;
+}
+#page2 .users *
+{
+  color: white !important;
+}
+/*end page two*/
+/*start page three*/
+#page3 .user_info
+{
+  background-color: #e0316d !important;
+}
+#page3 .user_info * {
+  color: #000000 !important;
+}
+#page3 .overlay
+{
+  background-color: #ff1100ba !important;
+}
+#page3 .text
+{
+  color: white !important;
+}
+/*end page three*/

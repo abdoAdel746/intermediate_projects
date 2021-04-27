@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Orbitron:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+*
+{
+  box-sizing: border-box;
+font-family: 'Orbitron', sans-serif;
+  text-transform : uppercase;
+}
+html
+{
+  background: url(a.jpg) no-repeat center center fixed;
+  background-size: cover;
+  perspective :600px;
+}
+body
+{
+  height: 1em;
+}
+/*h1
+{
+  position: fixed;
+  left: 172vh;
+  top: 36.9vw;
+  background-color: darkgrey;
+  padding: .5em;
+  border: 1px;
+  outline: none;
+  border-radius: 0.5em;
+  color: #743030;
+  text-shadow: 4px 10px 13px black;
+  text-transform: lowercase;
+  font-family: 'Yellowtail', cursive ,arial;
+  transition: all 1s ease-in-out;
+}
+h1:hover
+{
+  transform : scale(2,2);
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+  border: 3px solid black;
+  outline: none;
+  border-radius: 50%;
+}*/
+.sign-in
+{
+  width: 20%;
+      height: 30em;
+      display: inline-block;
+      margin: 6em auto;
+      margin-left: 13em;
+      padding: 2em;
+      background-color: white;
+      color: black;
+      border: 1px;
+      border-radius: 5%;
+      border-top-right-radius: 7em;
+      border-bottom-left-radius: 7em;
+      box-shadow: 24px 34px 32px 9px #891616d9 inset;
+  }
+form
+{
+  margin: 20px auto;
+      padding-left: 0.3em;
+      font-size: 1.5em;
+}
+ input
+{
+  display: block;
+      width: 107%;
+      margin-bottom: 1em;
+      padding: 1.5em;
+      border: 1px;
+      outline: none;
+      border-radius: 5%;
+      border-top-right-radius: 7em;
+      border-bottom-left-radius: 7em;
+      box-shadow: -11px -6px 14px 3px #800012 inset;
+      color: blue;
+      background-color: #cab5b5d9;
+      text-transform: none;
+      font-family: 'arial', tahoma;
+      letter-spacing : 2px;
+      font-weight: 900;
+}
+input[type="submit"]
+{
+  width: 56%;
+      height: 5em;
+      color: black;
+      font-weight: bold;
+      font-size: .8em;
+      transform: matrix3d(1, 0, 0, -0.004, -.1, 1, 0, 0.003, 0, 0, -1, 0, 33, 27, 0, 1.2);
+      background-color: #f5b3b3;
+      border-radius: 3em;
+      cursor : pointer ;
+}
+input[type="submit"]:hover
+{
+  background: url(q.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+/*.father
+{
+  width: 14.2em;
+      padding: 3.7em;
+      color: wheat;
+      position: relative;
+      top: -29em;
+      right: -53em;
+      border: 10px solid;
+      border-right: none;
+      border-left: none;
+      border-radius: 50%;
+}
+#about{
+  width: 12.7em;
+      padding: 0.7em;
+      line-height: 2em;
+      margin-left: -3em;
+      text-align: center;
+      color: white;
+      display: inline-block;
+
+      border-radius: 50%;
+      font-family: cursive;
+      text-overflow: clip;
+      background-color: #b4b8e3;
+      opacity: .5;
+      transition: all .1s ease-in-out;
+}
+#about:hover
+{
+  border: 6px solid #b4b8e3;
+  border-left: none;
+  border-top: none;
+  background-color: transparent;
+  opacity:1;
+}
+#about-me
+{
+  width: 7.2em;
+      padding: .7em;
+      color: wheat;
+      margin-left: -3em;
+      border-radius: 50%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-family: 'Merienda One', cursive;
+}
+#about-me:hover
+{
+  overflow: visible;
+  width: 13em;
+  text-align: center;
+  white-space: normal;
+}
+*/

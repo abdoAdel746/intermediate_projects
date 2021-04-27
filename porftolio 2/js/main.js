@@ -1,0 +1,22 @@
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:false,
+    items:1,
+    center:true,
+    slideTransition:"ease-in-out",
+    /*autoplay:10000,*/
+    smartSpeed:1000,
+    /*
+    responsive:{
+        0:{
+            items:5
+        },
+        600:{
+            items:4
+        },
+        1000:{
+            items:1
+        }
+    }*/
+})
